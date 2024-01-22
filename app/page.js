@@ -24,11 +24,11 @@ export default function Home() {
                 <Banner1 />
                 <Brand1 />
                 <About1 />
-             <Services1 />
-                <Choose1 />
+             <Services1 />   
+                <Choose1 /> 
                 <Counter1 />
                 <Project1 />
-                <Request1 />
+                <Request1 /> 
                 <Team1 />
             <Consulting1 />
             <Testimonial1 />
