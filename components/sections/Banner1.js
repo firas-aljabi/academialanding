@@ -8,10 +8,10 @@ export default function Banner1() {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="banner-content">
-                                <span className="sub-title" data-aos="fade-up" data-aos-delay={0}>We Are Expert In This Field</span>
-                                <h2 className="title" data-aos="fade-up" data-aos-delay={200}>business Consulting All Solutions</h2>
-                                <p data-aos="fade-up" data-aos-delay={400}>Agilos helps you to convert your data into a strategic asset and get business insights Agilos helps you to convert your data into asset and get top-notch business insights.</p>
-                                <Link href="/about" className="btn" data-aos="fade-up" data-aos-delay={600}>Read More</Link>
+                                <span className="sub-title" data-aos="fade-up" data-aos-delay={0}></span>
+                                <h2 className="title" data-aos="fade-up" data-aos-delay={200}>أكادیمیا للتدریب و الاستشارات</h2>
+                                <p data-aos="fade-up" data-aos-delay={400}>شركة استشارات سوریة معتمدة لدى وزارة التنمیة الإداریة، نقدم مجموعة واسعة من خدمات الاستشارات والتدریب ملتزمون بریادة الأعمال ودعم المشاریع الناشئة والصغیرة، لتحقیق أداء احترافي یعزز تجربة العمیل</p>
+                                <Link href="/about" className="btn" data-aos="fade-up" data-aos-delay={600}>معرفة المزيد</Link>
                             </div>
                             <div className="banner-shape">
                                 <img src="/assets/img/banner/banner_shape01.png" alt="" className="rightToLeft" />
@@ -30,7 +30,7 @@ export default function Banner1() {
                         </ul>
                     </div>
                     <div className="banner-scroll">
-                        <Link href="#about">Scroll Down <span><i className="fas fa-arrow-right" /></span></Link>
+                        <Link href="#about">النزول للأسفل <span><i className="fas fa-arrow-right" /></span></Link>
                     </div>
                 </div>
             </section>

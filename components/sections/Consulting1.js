@@ -12,8 +12,8 @@ export default function Consulting1() {
                                         <span>Consulting <br /> farm</span>
                                     </div>
                                     <div className="content-right">
-                                        <h2 className="title">Trusted , Happy  Satisfied Businesses</h2>
-                                        <p>When you work with HR Solutions, you get the best. We provide adaptable solutions that allow you to be a part of the entire process</p>
+                                        <h2 className="title">أعمال موثوقة وسعيدة وراضية</h2>
+                                        <p>عندما تعمل مع حلول الموارد البشرية، فإنك تحصل على الأفضل. نحن نقدم حلولاً قابلة للتكيف تتيح لك أن تكون جزءًا من العملية برمتها</p>
                                     </div>
                                 </div>
                                 <div className="consulting-img shine-animate">

@@ -63,7 +63,7 @@ export default function ServicesDetails5() {
                                             </div>
                                             <div className="sidebar__widget sidebar__widget-two">
                                                 <div className="sidebar__contact sidebar__contact-two" data-background="/assets/img/services/sidebar_contact_bg.jpg">
-                                                    <h2 className="title">If You Need Any Help Contact With Us</h2>
+                                                    <h2 className="title">إذا كنت بحاجة إلى أي مساعدة، تواصل معنا</h2>
                                                     <Link href="tel:0123456789" className="btn"><i className="flaticon-phone-call" />+91 705 2101 786</Link>
                                                 </div>
                                             </div>
@@ -83,49 +83,7 @@ export default function ServicesDetails5() {
                     </section>
                     {/* services-details-area-end */}
                     {/* call-back-area */}
-                    <section className="call-back-area">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-lg-6">
-                                    <div className="call-back-content">
-                                        <div className="section-title white-title mb-10">
-                                            <h2 className="title">Request A Call Back</h2>
-                                        </div>
-                                        <p>Ever find yourself staring at your computer screen a good consulting slogan to come to mind? Oftentimes.</p>
-                                        <div className="shape">
-                                            <img src="/assets/img/images/call_back_shape.png" alt="" data-aos="fade-right" data-aos-delay={400} />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-6">
-                                    <div className="call-back-form">
-                                        <form action="#">
-                                            <div className="row">
-                                                <div className="col-md-6">
-                                                    <div className="form-grp">
-                                                        <input type="text" placeholder="Name *" />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="form-grp">
-                                                        <input type="email" placeholder="E-mail *" />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="form-grp">
-                                                        <input type="number" placeholder="Phone *" />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <button type="submit" className="btn">Send Now</button>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                 
                 </div>
             </Layout>
         </>

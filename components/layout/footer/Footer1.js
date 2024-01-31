@@ -5,7 +5,7 @@ export default function Footer1() {
         <>
             <footer>
                 <div className="footer-area">
-                    <div className="footer-top">
+                            {/**  <div className="footer-top">
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-3 col-lg-4 col-md-6">
@@ -13,8 +13,7 @@ export default function Footer1() {
                                         <div className="fw-logo mb-25">
                                             <Link href="/"><img src="/assets/img/logo/logo.png" alt="" /></Link>
                                         </div>
-                                        <div className="footer-content">
-                                            <p>Felis consquat magnis fames sagittis ultrices plasodales porttitor quisque ultrice tempor turpis.</p>
+                                  <div className="footer-content">
                                             <div className="footer-social">
                                                 <ul className="list-wrap">
                                                     <li><Link href="#"><i className="fab fa-facebook-f" /></Link></li>
@@ -24,10 +23,10 @@ export default function Footer1() {
                                                     <li><Link href="#"><i className="fab fa-youtube" /></Link></li>
                                                 </ul>
                                             </div>
-                                        </div>
+                                        </div> 
                                     </div>
                                 </div>
-                                <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                   <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                                     <div className="footer-widget">
                                         <h4 className="fw-title">Information</h4>
                                         <div className="footer-info-list">
@@ -89,21 +88,17 @@ export default function Footer1() {
                                         </div>
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
-                    </div>
+                    </div>*/}    
                     <div className="footer-bottom">
                         <div className="container">
-                            <div className="row align-items-center">
-                                <div className="col-lg-7 order-0 order-lg-2">
-                                    <div className="footer-newsletter">
-                                        <h4 className="title">Newsletter SignUp!</h4>
-                                        <form action="#">
-                                            <input type="text" placeholder="e-mail Type . . ." />
-                                            <button className="btn btn-two" type="submit">Subscribe</button>
-                                        </form>
-                                    </div>
-                                </div>
+                        <div className="fw-logo mb-25">
+                                           
+                                        </div>
+                            <div className="">
+                            
                                 <div className="col-lg-5">
                                     <div className="copyright-text">
                                         <p>Copyright © <Link href="/">Academia</Link> | All Right Reserved</p>

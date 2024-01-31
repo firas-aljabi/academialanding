@@ -7,9 +7,9 @@ export default function Callback1() {
                         <div className="col-lg-6">
                             <div className="call-back-content">
                                 <div className="section-title white-title mb-10 tg-heading-subheading animation-style3">
-                                    <h2 className="title tg-element-title">Request A Call Back</h2>
+                                    <h2 className="title tg-element-title">طلب استدعاء</h2>
                                 </div>
-                                <p>Ever find yourself staring at your computer screen a good consulting slogan to come to mind? Oftentimes.</p>
+                                <p></p>
                                 <div className="shape">
                                     <img src="/assets/img/images/call_back_shape.png" alt="" data-aos="fade-right" data-aos-delay={400} />
                                 </div>
@@ -21,21 +21,21 @@ export default function Callback1() {
                                     <div className="row">
                                         <div className="col-md-6">
                                             <div className="form-grp">
-                                                <input type="text" placeholder="Name *" />
+                                                <input type="text" placeholder="الاسم *" />
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="form-grp">
-                                                <input type="email" placeholder="E-mail *" />
+                                                <input type="email" placeholder="البريد الالكتروني *" />
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="form-grp">
-                                                <input type="number" placeholder="Phone *" />
+                                                <input type="text" placeholder="رقم الهاتف *" />
                                             </div>
                                         </div>
                                         <div className="col-md-6">
-                                            <button type="submit" className="btn">Send Now</button>
+                                            <button type="submit" className="btn">أرسال الان</button>
                                         </div>
                                     </div>
                                 </form>

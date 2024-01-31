@@ -22,18 +22,19 @@ export default function Home() {
         <>
             <Layout headerStyle={1} footerStyle={1} transparent>
                 <Banner1 />
-                <Brand1 />
+        {/**   <Brand1 />*/}  
                 <About1 />
              <Services1 />   
                 <Choose1 /> 
                 <Counter1 />
-                <Project1 />
+     {/** <Project1 /> */}
                 <Request1 /> 
-                <Team1 />
+     {/**     <Team1 />*/}
             <Consulting1 />
-            <Testimonial1 />
+           {/**  <Testimonial1 />
                 <BlogPost1 />
                 <Callback1 />
+            */}
             </Layout>
         </>
     )

@@ -33,7 +33,7 @@ export default function TeamDetails() {
                                                     </li>
                                                     <li>
                                                         <i className="flaticon-pin" />
-                                                        256 Avenue, Mark Street, Newyork City
+                                                        سوريا , دمشق , السبع بحرات
                                                     </li>
                                                     <li>
                                                         <i className="fas fa-share-alt" />
@@ -55,13 +55,7 @@ export default function TeamDetails() {
                     </section>
                     {/* team-details-area-end */}
                     {/* brand-area */}
-                    <div className="brand__area-six">
-                        <div className="container">
-                            <div className="swiper-container brand-active">
-                                <BrandActiveSlider />
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </Layout>
         </>

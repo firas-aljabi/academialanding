@@ -15,10 +15,10 @@ export default function ForgotPassword() {
                                 <p className="text-16-semibold">No worries, we’ll send you reset instructions</p>
                                 <div className="form-login form-forgot">
                                     <div className="form-group">
-                                        <input type="text" className="form-control account" placeholder="Email Address Or Username" />
+                                        <input type="text" className="form-control account" placeholder="البريد الالكتروني Or Username" />
                                     </div>
                                     <div className="alert alert-warning">
-                                        <p className="text-infos">We can’t seem to find the right email address for you resend the email that you have registered</p>
+                                        <p className="text-infos">We can’t seem to find the right البريد الالكتروني for you resend the email that you have registered</p>
                                     </div>
                                     <div className="form-group">
                                         <input type="submit" className="btn btn-login" defaultValue="Reset password" />

@@ -167,13 +167,7 @@ export default function Team2() {
                     </section>
                     {/* team-area-end */}
                     {/* brand-area */}
-                    <div className="brand__area-six">
-                        <div className="container">
-                            <div className="swiper-container brand-active">
-                                <BrandActiveSlider />
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
 
             </Layout>

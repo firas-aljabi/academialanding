@@ -138,7 +138,7 @@ export default function ServicesDetails() {
                                             </div>
                                             <div className="sidebar__widget sidebar__widget-two">
                                                 <div className="sidebar__contact">
-                                                    <h2 className="title">If You Need Any Help Contact With Us</h2>
+                                                    <h2 className="title">إذا كنت بحاجة إلى أي مساعدة، تواصل معنا</h2>
                                                     <Link href="tel:0123456789" className="btn"><i className="flaticon-phone-call" />+91 705 2101 786</Link>
                                                 </div>
                                             </div>
@@ -150,13 +150,7 @@ export default function ServicesDetails() {
                     </section>
                     {/* services-details-area-end */}
                     {/* brand-area */}
-                    <div className="brand__area-six">
-                        <div className="container">
-                            <div className="swiper-container brand-active">
-                                <BrandActiveSlider />
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </Layout>
         </>

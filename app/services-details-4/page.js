@@ -99,42 +99,18 @@ export default function ServicesDetails4() {
                                             </div>
                                             <div className="sidebar__widget sidebar__widget-two">
                                                 <div className="sidebar__contact sidebar__contact-two" data-background="/assets/img/services/sidebar_contact_bg.jpg">
-                                                    <h2 className="title">If You Need Any Help Contact With Us</h2>
+                                                    <h2 className="title">إذا كنت بحاجة إلى أي مساعدة، تواصل معنا</h2>
                                                     <Link href="tel:0123456789" className="btn"><i className="flaticon-phone-call" />+91 705 2101 786</Link>
                                                 </div>
                                             </div>
-                                            <div className="sidebar__widget sidebar__widget-three">
-                                                <h4 className="sidebar__widget-title">Send Us Message</h4>
-                                                <div className="sidebar__form">
-                                                    <form action="#">
-                                                        <div className="form-grp">
-                                                            <input type="text" placeholder="Your Name" />
-                                                        </div>
-                                                        <div className="form-grp">
-                                                            <input type="email" placeholder="E-mail Address" />
-                                                        </div>
-                                                        <div className="form-grp">
-                                                            <textarea name="message" placeholder="Type Your Message" />
-                                                        </div>
-                                                        <button type="submit" className="btn btn-two">Send Message</button>
-                                                    </form>
-                                                </div>
-                                            </div>
+                                  
                                         </aside>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
-                    {/* services-details-area-end */}
-                    {/* brand-area */}
-                    <div className="brand__area-six">
-                        <div className="container">
-                            <div className="swiper-container brand-active">
-                                <BrandActiveSlider />
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
 
             </Layout>

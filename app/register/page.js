@@ -31,10 +31,10 @@ export default function Register() {
                                 <div className="text-or"><span>or</span></div>
                                 <div className="form-login">
                                     <div className="form-group">
-                                        <input type="text" className="form-control account" placeholder="Your Name" />
+                                        <input type="text" className="form-control account" placeholder="اسمك" />
                                     </div>
                                     <div className="form-group">
-                                        <input type="text" className="form-control email-address" placeholder="Email Address" />
+                                        <input type="text" className="form-control email-address" placeholder="البريد الالكتروني" />
                                     </div>
                                     <div className="form-group">
                                         <input type="text" className="form-control account" placeholder="Username" />

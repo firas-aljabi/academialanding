@@ -22,7 +22,8 @@ export default function Choose3() {
                             <div className="choose__content-three">
                                 <div className="section-title mb-25 tg-heading-subheading animation-style3">
                                     <span className="sub-title">Why We Are The Best</span>
-                                    <h2 className="title tg-element-title">We Offer Business Insight World Class Consulting</h2>
+                                    <h2 className="title tg-element-title">نحن نقدم رؤية الأعمال
+استشارات عالمية المستوى</h2>
                                 </div>
                                 <p>We successfully cope with tasks of varying complexity provide area longerty guarantees and regularly master new Practice Following gies heur portfolio includes.</p>
                                 <div className="choose__list">

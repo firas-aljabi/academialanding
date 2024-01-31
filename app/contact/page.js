@@ -4,14 +4,14 @@ import Link from "next/link"
 export default function Contact() {
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Contact With Us">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="التواصل معنا">
                 <div>
                     <section className="contact__area">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="contact-map">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.332792000835!2d144.96011341744386!3d-37.805673299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sbd!4v1685027435635!5m2!1sen!2sbd" allowFullScreen loading="lazy" />
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d291.2778987619702!2d36.29748860416176!3d33.52136474563181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518e7b96c9f2ded%3A0x78a92f9f7dfd0b12!2sAcademia!5e0!3m2!1sen!2sae!4v1706654120299!5m2!1sen!2sae" allowFullScreen loading="lazy" />
                                     </div>
                                 </div>
                             </div>
@@ -19,8 +19,8 @@ export default function Contact() {
                                 <div className="col-lg-5">
                                     <div className="contact__content">
                                         <div className="section-title mb-35">
-                                            <h2 className="title">How can we help you?</h2>
-                                            <p>When an unknown printer took a galley of type and scrambled it to make type pecimen book. It has survived not only five areafact types remaining essentially unchangedIt</p>
+                                            <h2 className="title">كيف يمكننا مساعدتك ؟</h2>
+                                            
                                         </div>
                                         <div className="contact__info">
                                             <ul className="list-wrap">
@@ -29,8 +29,8 @@ export default function Contact() {
                                                         <i className="flaticon-pin" />
                                                     </div>
                                                     <div className="content">
-                                                        <h4 className="title">Address</h4>
-                                                        <p>Awamileaug Drive, Kensington London, UK</p>
+                                                        <h4 className="title">العنوان</h4>
+                                                        <p> سوريا , دمشق , السبع بحرات</p>
                                                     </div>
                                                 </li>
                                                 <li>
@@ -38,7 +38,7 @@ export default function Contact() {
                                                         <i className="flaticon-phone-call" />
                                                     </div>
                                                     <div className="content">
-                                                        <h4 className="title">Phone</h4>
+                                                        <h4 className="title">رقم الهاتف</h4>
                                                         <Link href="tel:0123456789">+48 500-130-0001</Link>
                                                     </div>
                                                 </li>
@@ -47,7 +47,7 @@ export default function Contact() {
                                                         <i className="flaticon-mail" />
                                                     </div>
                                                     <div className="content">
-                                                        <h4 className="title">E-mail</h4>
+                                                        <h4 className="title">البريد الالكتروني</h4>
                                                         <Link href="mailto:info@gmail.com">info@gmail.com</Link>
                                                     </div>
                                                 </li>
@@ -55,88 +55,47 @@ export default function Contact() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-7">
+                  {/**       <div className="col-lg-7">
                                     <div className="contact__form-wrap">
-                                        <h2 className="title">Give Us a Message</h2>
-                                        <p>Your email address will not be published. Required fields are marked *</p>
+                                        <h2 className="title">أعطنا رسالة</h2>
+                                        <p>لن يتم نشر عنوان بريدك الإلكتروني</p>
                                         <form id="contact-form" action="assets/mail.php" method="POST">
                                             <div className="form-grp">
-                                                <textarea name="message" placeholder="Message" />
+                                                <textarea name="message" placeholder="الرسالة" />
                                             </div>
                                             <div className="row">
                                                 <div className="col-md-4">
                                                     <div className="form-grp">
-                                                        <input type="text" name="name" placeholder="Name" />
+                                                        <input type="text" name="name" placeholder="الاسم" />
                                                     </div>
                                                 </div>
                                                 <div className="col-md-4">
                                                     <div className="form-grp">
-                                                        <input type="email" name="email" placeholder="Email" />
+                                                        <input type="email" name="email" placeholder="البريد الالكتروني" />
                                                     </div>
                                                 </div>
                                                 <div className="col-md-4">
                                                     <div className="form-grp">
-                                                        <input type="number" name="phone" placeholder="Phone" />
+                                                        <input type="text" name="phone" placeholder="رقم الهاتف" />
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="form-grp checkbox-grp">
                                                 <input type="checkbox" name="checkbox" id="checkbox" />
-                                                <label htmlFor="checkbox">Save my name, email, and website in this browser for the next time I comment.</label>
+                                                <label htmlFor="checkbox">احفظ اسمي، بريدي الإلكتروني، والموقع الإلكتروني في هذا المتصفح لاستخدامها في المرة القادمة التي أقوم فيها بالتعليق</label>
                                             </div>
-                                            <button type="submit" className="btn">Submit post</button>
+                                            <button type="submit" className="btn">إرسال الرسالة</button>
                                         </form>
                                         <p className="ajax-response mb-0" />
                                     </div>
                                 </div>
+                                 */}  
                             </div>
                         </div>
                     </section>
                     {/* contact-area-end */}
                     {/* call-back-area */}
-                    <section className="call-back-area">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-lg-6">
-                                    <div className="call-back-content">
-                                        <div className="section-title white-title mb-10">
-                                            <h2 className="title">Request A Call Back</h2>
-                                        </div>
-                                        <p>Ever find yourself staring at your computer screen a good consulting slogan to come to mind? Oftentimes.</p>
-                                        <div className="shape">
-                                            <img src="/assets/img/images/call_back_shape.png" alt="" data-aos="fade-right" data-aos-delay={400} />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-6">
-                                    <div className="call-back-form">
-                                        <form action="#">
-                                            <div className="row">
-                                                <div className="col-md-6">
-                                                    <div className="form-grp">
-                                                        <input type="text" placeholder="Name *" />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="form-grp">
-                                                        <input type="email" placeholder="E-mail *" />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="form-grp">
-                                                        <input type="number" placeholder="Phone *" />
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <button type="submit" className="btn">Send Now</button>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                
                 </div>
             </Layout>
         </>

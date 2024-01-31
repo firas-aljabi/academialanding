@@ -31,7 +31,7 @@ export default function Login() {
                                 <div className="text-or"><span>or</span></div>
                                 <div className="form-login">
                                     <div className="form-group">
-                                        <input type="text" className="form-control account" placeholder="Email Address" />
+                                        <input type="text" className="form-control account" placeholder="البريد الالكتروني" />
                                     </div>
                                     <div className="form-group">
                                         <input type="password" className="form-control" placeholder="Password" />

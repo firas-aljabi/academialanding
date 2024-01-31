@@ -120,15 +120,15 @@ export default function About2() {
                             <div className="row justify-content-center">
                                 <div className="col-lg-8">
                                     <div className="request-content text-center">
-                                        <h2 className="title">Offering The Best Experience Of Business Consulting Services</h2>
+                                        <h2 className="title">تقديم أفضل تجربة لخدمات استشارات الأعمال</h2>
                                         <div className="content-bottom">
-                                            <Link href="tel:0123456789" className="btn">Request a Free Call</Link>
+                                            <Link href="tel:0123456789" className="btn">طلب مكالمة مجانية</Link>
                                             <div className="content-right">
                                                 <div className="icon">
                                                     <i className="flaticon-phone-call" />
                                                 </div>
                                                 <div className="content">
-                                                    <span>Toll Free Call</span>
+                                                    <span>مكالمة مجانية</span>
                                                     <Link href="tel:0123456789">+ 88 ( 9600 ) 6002</Link>
                                                 </div>
                                             </div>

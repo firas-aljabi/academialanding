@@ -19,16 +19,16 @@ export default function About1() {
                                         <i className="flaticon-trophy" />
                                     </div>
                                     <div className="content">
-                                        <h6 className="circle rotateme">Years Of - Experience 25 -</h6>
+                                        <h6 className="circle rotateme"> سنوات طويلة من الخبرة   </h6>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6">
                             <div className="about-content">
-                                <div className="section-title mb-35 tg-heading-subheading animation-style3">
-                                    <span className="sub-title">Simply Know About</span>
-                                    <h2 className="title tg-element-title">We Help Organizations To <br /> Make Ultimate Businesses Growth Success.</h2>
+                                <div className="section-title mb-32 tg-heading-subheading animation-style3" style={{textAlign:'end'}}>
+                                    <span className="sub-title"></span>
+                                    <h2 className="title tg-element-title">  اربعة أسباب لتختار خدمات أكادیمیا </h2>
                                 </div>
                                 <div className="about-list">
                                     <ul className="list-wrap">
@@ -37,33 +37,38 @@ export default function About1() {
                                                 <i className="flaticon-target" />
                                             </div>
                                             <div className="content">
-                                                <h4 className="title">Business Solutions</h4>
-                                                <p>Semper egetuis tellus urna condi</p>
+                                                <h4 className="title">نقدم خدمات رجال الأعمال داخل سوریة وخارجھا</h4>
                                             </div>
                                         </li>
-                                        <li>
-                                            <div className="icon">
-                                                <i className="flaticon-profit" />
-                                            </div>
-                                            <div className="content">
-                                                <h4 className="title">Quality Services</h4>
-                                                <p>Semper egetuis tellus urna condi</p>
-                                            </div>
-                                        </li>
+                                    <li>
+                                    <div className="icon">
+                                        <i className="flaticon-profit" />
+                                    </div>
+                                    <div className="content">
+                                        <h4 className="title">ندیر العملیات والمؤسسات التجاریة والانتاجیة وفق أنظمة الجودة العالمیة</h4>
+                                    </div>
+                                </li>
                                     </ul>
                                 </div>
-                                <p>We successfully cope with tasks of varying complexityprovide longerty term guarantees and regularly master new Practice Area technol ogiesOur portfolio includes dozen</p>
-                                <div className="about-bottom">
-                                    <div className="author-wrap">
-                                        <div className="thumb">
-                                            <img src="/assets/img/images/author_img.png" alt="" />
-                                        </div>
-                                        <div className="content">
-                                            <img src="/assets/img/images/sign.png" alt="" />
-                                            <h4 className="title">Martinaze <span>, CEO</span></h4>
-                                        </div>
+                                <div className="about-list">
+                                    <ul className="list-wrap">
+                                        <li>
+                                            <div className="icon">
+                                                <i className="flaticon-target" />
+                                            </div>
+                                            <div className="content">
+                                                <h4 className="title">نقدم حلول فعالة للأعمال والمشاریع المتعثرة</h4>
+                                            </div>
+                                        </li>
+                                    <li>
+                                    <div className="icon">
+                                        <i className="flaticon-profit" />
                                     </div>
-                                    <Link href="/about" className="btn btn-two">Read More</Link>
+                                    <div className="content">
+                                        <h4 className="title">نساعدك في تحدید استراتیجیات العمل والتطویر ودعم خطط الأعمال</h4>
+                                    </div>
+                                </li>
+                                    </ul>
                                 </div>
                                 <div className="about-shape-wrap">
                                     <img src="/assets/img/images/about_shape03.png" alt="" />

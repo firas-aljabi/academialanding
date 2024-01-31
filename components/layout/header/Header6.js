@@ -12,7 +12,7 @@ export default function Header6({ scroll, isMobileMenu, handleMobileMenu, transp
                             <div className="col-lg-6">
                                 <ul className="tg-header__top-info left-side list-wrap">
                                     <li><i className="flaticon-phone-call" /><Link href="tel:0123456789">+123 9898 500</Link></li>
-                                    <li><i className="flaticon-pin" />256 Avenue, Mark Street, NewYork City</li>
+                                    <li><i className="flaticon-pin" />سوريا , دمشق , السبع بحرات</li>
                                 </ul>
                             </div>
                             <div className="col-lg-6">

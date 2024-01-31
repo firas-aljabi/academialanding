@@ -18,7 +18,8 @@ export default function Choose6() {
                             <div className="choose-content">
                                 <div className="section-title white-title mb-30 tg-heading-subheading animation-style3">
                                     <span className="sub-title">Why We Are The Best</span>
-                                    <h2 className="title tg-element-title">We Offer Business Insight <br /> World Class Consulting</h2>
+                                    <h2 className="title tg-element-title">نحن نقدم رؤية الأعمال
+                                    استشارات عالمية المستوى</h2>
                                 </div>
                                 <p>We successfully cope with tasks of varying complexity provide area longerty guarantees and regularly master new Practice Following gies heur portfolio includes dozen.</p>
                                 <div className="choose-list">

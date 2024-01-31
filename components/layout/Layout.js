@@ -54,7 +54,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
         })
     }, [])
     return (
-        <>
+        <div  style={{textAlign:'end'}}>
             <PageHead headTitle={headTitle} />
             <DataBg />
 
@@ -83,6 +83,6 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
             {footerStyle == 7 ? < Footer7 /> : null}
 
             <BackToTop />
-        </>
+        </div>
     )
 }

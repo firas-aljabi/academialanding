@@ -11,7 +11,7 @@ export default function Breadcrumb({ breadcrumbTitle }) {
                                 <h2 className="title">{breadcrumbTitle}</h2>
                                 <nav aria-label="breadcrumb">
                                     <ol className="breadcrumb">
-                                        <li className="breadcrumb-item"><Link href="/">Home</Link></li>
+                                        <li className="breadcrumb-item"><Link href="/">الصفحة الرئيسية</Link></li>
                                         <li className="breadcrumb-item active" aria-current="page">{breadcrumbTitle}</li>
                                     </ol>
                                 </nav>

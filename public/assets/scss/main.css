@@ -1418,7 +1418,7 @@ textarea {
 }
 .tgmenu__main-menu li.menu-item-has-children .dropdown-btn {
   display: none;
-}
+} 
 .tgmenu__main-menu li.menu-item-has-children > a::after {
   content: "\f107";
   font-weight: 700;
@@ -1790,6 +1790,7 @@ textarea {
 .tgmobile__menu .navigation li.menu-item-has-children .dropdown-btn.open .plus-line::after {
   display: none;
 }
+
 .tgmobile__menu .navigation li > a {
   position: relative;
   display: block;

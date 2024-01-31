@@ -8,15 +8,15 @@ export default function Request1() {
                     <div className="row justify-content-center">
                         <div className="col-lg-8">
                             <div className="request-content text-center tg-heading-subheading animation-style3">
-                                <h2 className="title tg-element-title">Offering The Best Experience Of Business Consulting Services</h2>
+                                <h2 className="title tg-element-title">تقديم أفضل تجربة لخدمات استشارات الأعمال</h2>
                                 <div className="content-bottom">
-                                    <Link href="tel:0123456789" className="btn">Request a Free Call</Link>
+                                    <Link href="tel:0123456789" className="btn">اضغط للتواصل على الواتس اب</Link>
                                     <div className="content-right">
                                         <div className="icon">
                                             <i className="flaticon-phone-call" />
                                         </div>
                                         <div className="content">
-                                            <span>Toll Free Call</span>
+                                         {/** */}   <span>مكالمة مجانية</span>
                                             <Link href="tel:0123456789">+ 88 ( 9600 ) 6002</Link>
                                         </div>
                                     </div>

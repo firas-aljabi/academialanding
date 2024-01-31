@@ -12,16 +12,16 @@ export default function OffcanvusMenu({ isOffcanvus, handleOffcanvus }) {
                 </div>
                 <div className="offCanvas__side-info mb-30">
                     <div className="contact-list mb-30">
-                        <h4>Office Address</h4>
-                        <p>123/A, Miranda City Likaoli <br /> Prikano, Dope</p>
+                        <h4>عنوان المكتب</h4>
+                        <p>سوريا , دمشق , السبع بحرات <br /></p>
                     </div>
                     <div className="contact-list mb-30">
-                        <h4>Phone Number</h4>
+                        <h4>رقم الهاتف</h4>
                         <p>+0989 7876 9865 9</p>
                         <p>+(090) 8765 86543 85</p>
                     </div>
                     <div className="contact-list mb-30">
-                        <h4>Email Address</h4>
+                        <h4>البريد الالكتروني</h4>
                         <p>info@example.com</p>
                         <p>example.mail@hum.com</p>
                     </div>
